@@ -1,0 +1,136 @@
+:: StoryTitle
+Story
+
+
+:: StoryData
+{
+  "ifid": "ECC79BB7-8377-49BD-A50C-478C45C9EDAE",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "start",
+  "zoom": 1
+}
+
+
+:: \ bed {"position":"850,1125","size":"100,100"}
+You watch the movie in bed.. all alone.. by yourself..
+
+What a looser. 
+
+[[you loose->start]]
+
+
+:: \ cup {"position":"475,750","size":"100,100"}
+Your roomate walks in on you pouring yourself a cup of their favorite punch and gives you an angry glare. 
+
+You're overcome with guilt and decide to pack your bags and leave. 
+
+[[you loose->start]]
+
+
+:: \ granola {"position":"600,875","size":"100,100"}
+The granola you left had nuts, which broke your roomate out in hives.
+
+They send you their medical bill which leaves you with crippling debt. 
+
+[[you loose->start]]
+
+
+:: \ juice {"position":"475,625","size":"100,100"}
+Looks like the only drink in the fridge is your roommate's favorite fruit punch.
+
+[[have a cup-> cup]]
+[[make a trade-> trade]]
+
+
+
+:: \ movie {"position":"725,1000","size":"100,100"}
+You pick a  movie you've already seen before. 
+
+The burden of choosing a new one was too much...
+
+[[watch it in the living room->living]]
+[[watch it in bed-> bed]]
+
+
+:: \ phone {"position":"850,1000","size":"100,100"}
+You reach for your phone only to drop it by accident, crushing your right pinky toe.
+
+You immediatly fall to the floor in pain.
+
+[[you loose->start]]
+
+
+:: \ thirsty {"position":"350,625","size":"100,100"}
+It has been several days since you've had something to drink and the dehydration has caused multiple organ failure. 
+
+Should have grabbed that juice when you had the chance...
+
+[[you loose->start]]
+
+
+:: \ trade {"position":"600,750","size":"100,100"}
+You feel bad for drinking their stuff so you decided to leave them a treat.
+
+Hmm what would make up for this...
+
+[[granola bar-> granola]]
+[[candy->candy]]
+
+
+:: \ water {"position":"350,500","size":"100,100"}
+You remember you accidentally left your water bottle in class.
+
+Probably shouldn't have left in such a hurry...
+
+[[have some juice-> juice]]
+[[stay thirsty-> thirsty]]
+
+
+:: bed {"position":"475,500","size":"100,100"}
+You fart uncontrollably on your way to bed and your roommate give you a dirty look. 
+
+You are overcome by unbearable embarrassment and decide to fake your own death to cope. 
+
+[[you loose->start]]
+
+
+:: candy {"position":"725,875","size":"100,100"}
+You leave them some gummy worms, and you are now feeling a bit bored. 
+
+What will you do?
+
+[[watch a movie-> movie]]
+[[scroll your phone-> phone]]
+
+
+:: chips {"position":"625,375","size":"100,100"}
+You grab a random bag at checkout. 
+The cashier critiqued your choice of snack and you cried in your car.
+
+[[you loose->start]]
+
+
+:: living {"position":"725,1125","size":"100,100"}
+Your roomate walks in and you guys bond over the movie.
+
+They become your best friend!
+
+you win.
+
+
+:: start {"position":"500,250","size":"100,100"}
+You are at the gas staition looking for a snack.
+That sushi looks kinda tempting...
+
+[[have sushi for dinner->sushi]]
+[[get a bag of chips->chips]]
+
+
+
+:: sushi {"position":"350,375","size":"100,100"}
+Your stomach feels kinda funky.
+It might have been the beans you had yesterday.
+
+[[have some water-> water]]
+[[go to bed->bed]]
